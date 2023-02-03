@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
-      //  task3();
+        task3();
       //  task4();
       //  task5();
       //  task6();
@@ -39,5 +39,14 @@ public class Main {
         System.out.println(sixthNumber);
         byte seventhNumber = 67;
         System.out.println(seventhNumber);
+    }
+    public static  void task3() {
+        System.out.println("Задача 3");
+        short totalList = 480;
+        byte klassLudmilaPavlovna = 23;
+        byte klassAnnaSergeevna = 27;
+        byte klassEkaterinaAndreevna = 30;
+        int quantityPerStudent = totalList / (klassEkaterinaAndreevna + klassAnnaSergeevna + klassLudmilaPavlovna);
+        System.out.println("На каждого ученика рассчитано " + quantityPerStudent + " листов бумаги");
     }
 }
