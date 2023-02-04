@@ -5,7 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
-      //  task6();
+        task6();
 
     }
     public static  void task1() {
@@ -76,5 +76,16 @@ public class Main {
         int black = ratio * 4;
         System.out.println("В школе, где " + ratio + " классов, нужно " + white + " банок белой краски и "
                 + black + " банок коричневой краски");
+    }
+    public static  void task6() {
+        System.out.println("Задача 6");
+        short wholeBanana  = 80 * 5;
+        short wholeMilk  = 105 * 2;
+        short wholeIceCream  = 100 * 2;
+        short wholeEggs = 70 * 4;
+        float wholeGrams = wholeBanana + wholeMilk + wholeIceCream + wholeEggs;
+        float wholeKilograms = wholeGrams / 1000;
+        System.out.println("Общий вес завтрака " + wholeGrams + " грамм, что составляет " + wholeKilograms +
+                " килограмм.");
     }
 }
