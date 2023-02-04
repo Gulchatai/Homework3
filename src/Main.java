@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
     public static  void task1() {
         System.out.println("Задача 1");
@@ -100,4 +101,23 @@ public class Main {
                 + quantityDaysFor250Grams + " дней. Если спортсмен будет терять по 500 грамм ежедневно, ему потруется "
                 + quantityDaysFor500Grams + " дней. В среднем спортсмену потребуется " + mediumQuantityDays + ".");
     }
+    public static  void task8() {
+        System.out.println("Задача 8");
+    int currentIncomeMasha = 67760;
+    int currentIncomeDenis = 83690;
+    int currentIncomeKristina = 76230;
+    float increasedIncomeMasha = currentIncomeMasha * 1.1f;
+    float increasedIncomeDenis = currentIncomeDenis * 1.1f;
+    float increasedIncomeKristina = currentIncomeKristina * 1.1f;
+    float incomeDifferenceMasha = increasedIncomeMasha * 12 - currentIncomeMasha * 12;
+    float incomeDifferenceDenis = increasedIncomeDenis * 12 - currentIncomeDenis * 12;
+    float incomeDifferenceKristina = increasedIncomeKristina * 12 - currentIncomeKristina * 12;
+        System.out.println("Маша теперь получает " + increasedIncomeMasha + " рублей. Годовой доход вырос на " +
+    incomeDifferenceMasha + " рублей».");
+        System.out.println("Денис теперь получает " + increasedIncomeDenis + " рублей. Годовой доход вырос на " +
+    incomeDifferenceDenis + " рублей».");
+        System.out.println("Кристина теперь получает " + increasedIncomeKristina + " рублей. Годовой доход вырос на " +
+    incomeDifferenceKristina + " рублей».");
 }
+}
+
