@@ -6,7 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
-
+        task7();
     }
     public static  void task1() {
         System.out.println("Задача 1");
@@ -87,5 +87,17 @@ public class Main {
         float wholeKilograms = wholeGrams / 1000;
         System.out.println("Общий вес завтрака " + wholeGrams + " грамм, что составляет " + wholeKilograms +
                 " килограмм.");
+    }
+    public static  void task7() {
+        System.out.println("Задача 7");
+        byte wholeReset = 7;
+        float wholeResetFor250Grams = 250/1000f;
+        float wholeResetFor500Grams = 500/1000f;
+        float quantityDaysFoe250Grams = wholeReset / wholeResetFor250Grams;
+        float quantityDaysFoe500Grams = wholeReset / wholeResetFor500Grams;
+        float mediumQuantityDays = (quantityDaysFoe250Grams + quantityDaysFoe500Grams) / 2;
+        System.out.println("Если спортсмен будет терять по 250 грамм ежедневно, ему потребуется "
+                + quantityDaysFoe250Grams + " дней. Если спортсмен будет терять по 500 грамм ежедневно, ему потруется "
+                + quantityDaysFoe500Grams + " дней. В среднем спортсмену потребуется " + mediumQuantityDays + ".");
     }
 }
