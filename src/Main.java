@@ -72,8 +72,8 @@ public class Main {
     public static  void task5() {
         System.out.println("Задача 5");
         byte ratio  = 120/6;
-        var white = ratio * 2;
-        var black = ratio * 4;
+        int white = ratio * 2;
+        int black = ratio * 4;
         System.out.println("В школе, где " + ratio + " классов, нужно " + white + " банок белой краски и "
                 + black + " банок коричневой краски");
     }
