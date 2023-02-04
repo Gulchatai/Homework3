@@ -3,7 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
-      //  task4();
+        task4();
       //  task5();
       //  task6();
 
@@ -48,5 +48,25 @@ public class Main {
         byte klassEkaterinaAndreevna = 30;
         int quantityPerStudent = totalList / (klassEkaterinaAndreevna + klassAnnaSergeevna + klassLudmilaPavlovna);
         System.out.println("На каждого ученика рассчитано " + quantityPerStudent + " листов бумаги");
+    }
+    public static  void task4() {
+        System.out.println("Задача 4");
+        byte machinePerformance = 16 / 2;
+        var n = "20 минут";
+        int machinePerformance20Minutes = machinePerformance * 20;
+        System.out.println("За " + n + " машина произвела " + machinePerformance20Minutes +
+                " штук бутылок.");
+        var v = "сутки";
+        int machinePerformanceDay = machinePerformance * 60 * 24;
+        System.out.println("За " + v + " машина произвела " + machinePerformanceDay +
+                " штук бутылок.");
+        var s = "3 дня";
+        int machinePerformanceFreeDays = machinePerformance * 60 * 24 * 3;
+        System.out.println("За " + s + " машина произвела " + machinePerformanceFreeDays +
+                " штук бутылок.");
+        var p = "месяц";
+        int machinePerformanceMonth = machinePerformance * 60 * 24 * 30;
+        System.out.println("За " + p + " машина произвела " + machinePerformanceMonth +
+                " штук бутылок.");
     }
 }
